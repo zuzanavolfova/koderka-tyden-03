@@ -15,26 +15,28 @@
 
 .prvni {
     background-color: #2ecc71;
-    order: 3;
-    flex-basis: 25%;
+    order: 1;
+    flex-basis: 200px;
+    flex-shrink: 0;
 }
 
 .druhy {
     background-color: #f1c40f;
-    order: 1;
-    flex-basis: 25%;
+    order: 3;
+    flex-grow: 1;
 }
 
 .treti {
     background-color: #3498db;
-    order: 4;
-    flex-basis: 25%;
+    order: 2;
+    flex-grow: 1;
 }
 
 .ctvrty {
     background-color: #e74c3c;
-    order: 2;
-    flex-basis: 25%;
+    order: 4;
+    flex-basis: 100px;
+    flex-shrink: 0;
 }
 
 .kontejner {
